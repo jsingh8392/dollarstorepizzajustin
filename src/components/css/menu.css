@@ -1,12 +1,16 @@
 .Menu {
-  background-image: linear-gradient(to right top, #b40000, #ca3929, #de5c4c, #ef7c70, #fe9c93);
+ background-image: linear-gradient(to right top, #b40000, #ca3929, #de5c4c, #ef7c70, #fe9c93);
 
 }
 
 .Menu .primary-text{
-  padding-top: 5%
+  padding-top: 5%;
+  color: white;
+  text-align: center;
 }
 
 .Menu .secondary-text{
-  padding-bottom: 3%
+  padding-bottom: 3%;
+  color: white;
+  text-align: center;
 }
