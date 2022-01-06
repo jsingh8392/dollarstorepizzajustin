@@ -1,12 +1,12 @@
 import React from 'react';
-import veggie from './images/veggie.jpeg';
+import plain from './images/plain.jpg';
 import './css/slice.css';
 
-function Veggie(props) {
+function Slice(props) {
   return(
-    <div className="Veggie col-4">
+    <div className="Plain col-4">
       <div className="card">
-        <img src={ veggie } class="card-img-top" alt="..."/>
+        <img src={props.img} class="card-img-top" alt="..."/>
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.description}</p>
@@ -19,4 +19,4 @@ function Veggie(props) {
   );
 }
 
-export default Veggie;
+export default Slice;

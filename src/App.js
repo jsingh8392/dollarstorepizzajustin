@@ -5,7 +5,7 @@ import Menu from './components/menu';
 import './App.css';
 
 
-function App() {
+function App() { 
   return(
     <div className="App">
       <Navbar/>
